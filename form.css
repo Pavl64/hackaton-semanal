@@ -1,0 +1,28 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+h1{
+    color: aqua;
+    text-align: center;
+}
+form{
+    margin: auto;
+    width:40%;
+    background-color: blueviolet;
+    padding:10px;
+}
+input{
+    width:100%;
+    border:2px solid green;
+}
+hr{
+    width:50%;
+    margin: auto;
+}
+.submit{
+    width: 60px;
+    margin:auto;
+    display:block;
+}

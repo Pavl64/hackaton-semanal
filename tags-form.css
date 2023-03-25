@@ -1,5 +1,10 @@
+
 *{
     text-align: center;
+}
+form{
+    width:40%;
+    margin: auto;
 }
 h1{
     color:purple;
@@ -10,4 +15,8 @@ h2{
 .submit{
     background-color: blueviolet;
     color:white;
+    width: 15%;
+}
+input{
+    width:40%;
 }

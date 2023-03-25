@@ -1,0 +1,45 @@
+*{
+    margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+h1{
+    color:red;
+    text-align: center;
+}
+form{
+    margin: auto;
+    width:65%;
+    height:350px;
+    background-color: rgb(139, 188, 237);
+    margin-top: 30px;
+}
+.blog{
+    margin:auto;
+    display:block;
+    margin-top: 15px;
+}
+.submit{
+    margin:auto;
+    display:block;
+    background-color: blue;
+    color: white;
+    margin-top: 15px;
+    width: 14%;
+    height: 40px;
+    margin-top:30px;
+}
+.nombres{
+    width:45%;
+    margin: auto;
+}
+.telefono{
+    width:45%;
+    margin: auto;
+}
+input{
+    margin-top:15px;
+    margin-right:5%;
+    height: 30px;
+}
+
