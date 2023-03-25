@@ -1,0 +1,13 @@
+*{
+    text-align: center;
+}
+h1{
+    color:purple;
+}
+h2{
+    font-size: 13px;
+}
+.submit{
+    background-color: blueviolet;
+    color:white;
+}

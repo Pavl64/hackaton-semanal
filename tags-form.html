@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tags-form.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de contacto</h1>
+    <h2>Escribenos y en breve los pondremos en contacto contigo</h2>
+    <form action="example.html">
+        <div>
+            <label for="name">Nombre*</label><br>
+            <input type="text" id="name" placeholder="Escribe tu nombre"required>
+        </div>
+        <div>
+            <label for="correo">Email*</label><br>
+            <input type="email" id="correo" placeholder="Escribe tu Email">
+        </div>
+        <div>
+            <label for="telefono">Teléfono</label><br>
+            <input type="number" id="telefono" placeholder="Escribe tu teléfono">
+        </div>
+        <div>
+            <label for="web">Sitio web</label><br>
+            <input type="text" id="web" placeholder="Escribe la URL de tu web">
+        </div>
+        <div>
+            <label for="asunto">Asunto*</label><br>
+            <input type="text" id="asunto" placeholder="Escribe un asunto">
+        </div>
+        <div>
+            <label for="blog">Mensaje*</label><br>
+            <textarea id="blog" cols="30" rows="10" placeholder="Deja aqui tu comentario"></textarea>
+        </div>
+        <div>
+            <input class="submit" type="submit" value="ENVIAR">
+        </div>
+        <p>*los campos son obligatorios. </p>
+    </form>
+</body>
+</html>
